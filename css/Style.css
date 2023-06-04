@@ -26,7 +26,7 @@ h5 {
 
 .main_header {
     background-color: #00000000;
-    border: none    ;
+    border: none;
     padding: 0;
     transition: all 0.5s;
     height: 90px;
@@ -107,32 +107,42 @@ h5 {
     display: none;
 }
 
-.dark .dark_card{
+.dark .dark_card {
     background-color: #222222;
     color: white;
 }
+
 .dark .main_header {
     background-color: #7d3b3b00;
 }
+
 .dark .banner .banner_left h1 {
     color: black;
- }
-.dark .nav_fixed{
+}
+
+.dark .nav_fixed {
     background-color: #222222;
-    
+
 }
+
 .dark .nav_fixed .navbar-brand {
-    color: white ;
+    color: white;
 }
+
 .dark .feature .feature_right .feature_item {
     background-color: #222222;
     color: white;
-    box-shadow: 0 1rem  3rem rgb(31, 30, 30, 1);
+    box-shadow: 0 1rem 3rem rgb(31, 30, 30, 1);
 }
-.dark .services .services_post .post_item .dark_card a{
+
+.dark .services .services_post .post_item .dark_card a {
     color: white;
 }
+
 /* --------------  */
+.card {
+    border: none;
+}
 
 header .header_search {
     height: 35px;
@@ -651,7 +661,3 @@ footer .footer_content .footer_item h3 {
     height: 100%;
     color: white;
 }
-
-
-
-
