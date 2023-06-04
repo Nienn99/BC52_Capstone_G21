@@ -107,7 +107,7 @@ h5 {
     display: none;
 }
 
-.dark .card {
+.dark .dark_card{
     background-color: #222222;
     color: white;
 }
@@ -124,7 +124,14 @@ h5 {
 .dark .nav_fixed .navbar-brand {
     color: white ;
 }
-
+.dark .feature .feature_right .feature_item {
+    background-color: #222222;
+    color: white;
+    box-shadow: 0 1rem  3rem rgb(31, 30, 30, 1);
+}
+.dark .services .services_post .post_item .dark_card a{
+    color: white;
+}
 /* --------------  */
 
 header .header_search {
@@ -264,7 +271,7 @@ header .search_box .search_text:focus {
 
 /* services */
 .services {
-    background-color: #009F4D;
+    background-color: #009F4D !important;
 }
 
 .services .services_title .services_text h5 {
@@ -329,7 +336,7 @@ header .search_box .search_text:focus {
 
 .services .services_post .card .card-body p:last-child {
     font-size: 17px;
-    color: #707070;
+    color: #959292;
     padding-bottom: 15px;
 
 }
@@ -365,10 +372,10 @@ header .search_box .search_text:focus {
 
 /* -------------------  */
 /* gallery  */
-.gallery {
+/* .gallery {
     margin-top: 80px;
     margin-bottom: 80px;
-}
+} */
 
 .gallery .gallery_title {
     padding: 10px;
