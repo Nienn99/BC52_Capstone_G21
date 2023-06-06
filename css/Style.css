@@ -6,6 +6,13 @@ h5 {
     font-family: 'Volkhov', serif;
 }
 
+p {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
+    line-height: 27px;
+    color: #707070;
+}
+
 
 .button_all {
     padding: 12px 30px;
@@ -139,10 +146,9 @@ h5 {
     color: white;
 }
 
-/* --------------  */
-/* .card {
+.card {
     border: none;
-} */
+}
 
 header .header_search {
     height: 35px;
@@ -512,6 +518,34 @@ header .search_box .search_text:focus {
 
 /* ----- ABOUT ----  */
 /* -------------------------  */
+/* poster  */
+.inner_poster {
+    width: 100%;
+    background-image: url(../IMG/b4.jpg);
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 100;
+    /*coi lại*/
+}
+
+.poster .poster_path {
+    line-height: 1.5;
+    color: #707070;
+    vertical-align: middle;
+    font-size: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.poster ul a {
+    text-decoration: none !important;
+    color: #707070;
+}
+
+
+
 /* intro about */
 .intro .intro_left h5 {
     color: #FB811E;
@@ -652,10 +686,30 @@ header .search_box .search_text:focus {
     max-width: 100%;
 }
 
+
 .history .history_content .history_video img {
     max-width: 100%;
     border-radius: 10px;
 }
+
+.history .history_video .history_play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.history_video .history_play a i {
+    color: #fb811e;
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
 
 /* history play button  */
 #small-dialog {
