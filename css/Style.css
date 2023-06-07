@@ -67,7 +67,12 @@ p {
     padding: 0px;
     font-family: 'Volkhov', serif;
 }
-
+.nav_fixed .darkMode #switchButton {
+    color: black;
+}
+.nav_fixed .dropdown button i {
+    color: black;
+}
 .navbar-brand i {
     position: absolute;
     top: 0px;
@@ -82,7 +87,7 @@ p {
 }
 
 #switchButton {
-    color: black;
+    color: white;
     font-size: 25px;
     border: none !important;
 }
@@ -152,7 +157,23 @@ p {
 .dark .blog .blog_box .blog_item .item_content h4 {
     color: white;
 }
+.dark .nav_fixed .dropdown button i {
+    color: white;
+}
 /* //darkthem  */
+.dropdown {
+    outline: none !important;
+    border: none;
+}
+.dropdown button {
+    border: none !important;
+}
+.dropdown button i {
+    color: white;
+    font-size: 25px;
+}
+
+
 
 /* --------------  */
 
@@ -565,11 +586,17 @@ header .search_box .search_text:focus {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+.number .number_item p {
+    color: black;
+}
+.dark .dark_card .number_content .number_item p {
+    color: white;
+}
 
 /* ---------------------------------  */
 /* team  */
 .team {
-    background-color: #009F4D;
+    background-color: #009F4D !important;
     height: auto;
 }
 
