@@ -347,6 +347,7 @@ header .search_box .search_text:focus {
 
 .services .services_title .services_text p {
     font-size: 20px;
+    color: white;
 }
 
 .services .services_bg {
