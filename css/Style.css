@@ -503,65 +503,6 @@ header .search_box .search_text:focus {
     transition: all 0.7s;
 }
 
-/* -----------------------------------------------  */
-/* comment  carousel  */
-.comment {
-    background-image: url(../img/bg1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* height: 100vh; */
-    position: relative;
-    z-index: 1;
-}
-
-.comment::before {
-    content: "";
-    background: rgb(10 10 10 / 52%);
-    position: absolute;
-    top: 0;
-    min-height: 100%;
-    left: 0;
-    right: 0;
-    z-index: -1;
-}
-
-.comment .comment_content {
-    padding: 50px 190px;
-}
-
-.comment .comment_content .comment_item {
-    display: flex;
-    width: 100%;
-}
-
-.comment_content .comment_item .comment_left {
-    width: 30%;
-}
-
-.comment_content .comment_item .comment_right {
-    width: 70%;
-}
-
-.comment_content .comment_item .comment_right i {
-    color: #FB811E;
-}
-
-.comment_content .comment_item .comment_right p {
-    font-size: 22px;
-    line-height: 34px;
-}
-
-.comment_item .comment_left img {
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    margin: 0 auto;
-}
-
-.owl-theme .owl-dots .owl-dot.active span {
-    background: #FB811E;
-}
-
 
 /* ----- ABOUT ----  */
 /* -------------------------  */
@@ -604,6 +545,8 @@ header .search_box .search_text:focus {
 
 .intro .intro_right img {
     border-radius: 10px;
+    width: 100%;
+
 }
 
 /* number  */
@@ -844,22 +787,6 @@ div#small-dialog iframe {
     z-index: -1;
 }
 
-.comment .comment_content {
-    padding: 50px 190px;
-}
-
-.comment .comment_content .comment_item {
-    display: flex;
-    width: 100%;
-}
-
-.comment_content .comment_item .comment_left {
-    width: 30%;
-}
-
-.comment_content .comment_item .comment_right {
-    width: 70%;
-}
 
 .comment_content .comment_item .comment_right i {
     color: #FB811E;
@@ -879,6 +806,11 @@ div#small-dialog iframe {
 
 .owl-theme .owl-dots .owl-dot.active span {
     background: #FB811E;
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+    display: flex;
+    justify-content: center;
 }
 
 /* ----------------------  */
@@ -926,6 +858,7 @@ footer .footer_content .footer_item h3 {
 
 #footer_logo {
     background: none;
+    color: #FB811E;
 }
 
 .footer_item .footer_logo a {
@@ -1004,6 +937,7 @@ footer .footer_content .footer_item h3 {
     line-height: 35px;
     margin-right: 10px;
     text-align: center;
+    color: #009F4D;
     background: rgb(10 191 83 / 8%);
     border-radius: 50px;
     transition: all 0.5s;
