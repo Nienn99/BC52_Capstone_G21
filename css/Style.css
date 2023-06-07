@@ -82,8 +82,9 @@ p {
 }
 
 #switchButton {
-    background-color: white;
-    border: 1px solid black;
+    color: black;
+    font-size: 25px;
+    border: none !important;
 }
 
 #switchButton .fa-sun {
@@ -101,8 +102,9 @@ p {
 }
 
 .dark #switchButton {
-    background-color: black;
-    border: 1px solid white;
+    color: black;
+    font-size: 25px;
+    outline: none;
 }
 
 .dark #switchButton .fa-sun {
@@ -150,6 +152,8 @@ p {
 .dark .blog .blog_box .blog_item .item_content h4 {
     color: white;
 }
+/* //darkthem  */
+
 /* --------------  */
 
 header .header_search {
@@ -356,9 +360,48 @@ header .search_box .search_text:focus {
     font-size: 17px;
     color: #959292;
     padding-bottom: 15px;
-
 }
 
+/* Value  */
+.value .value_content .value_left h5 {
+    color: #FB811E;
+    font-size: 22px;
+}
+.value .value_content .value_left h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.value .value_content .value_left .value_left_item span {
+    color: #FB811E;
+    font-size: 30px;
+}
+.value .value_content .value_left .value_left_item h4 {
+    font-weight: 600;
+}
+
+.value .value_content .value_right img {
+    width: 75%;
+}
+.value .value_content .value_right .radius_item {
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+    background-color: #FB811E;
+    color: white;
+    border-bottom-right-radius: 45%;
+    min-width: 300px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);;
+}
+.value .value_content .value_right .radius_item p {
+    color: white ;
+    font-weight: 600;
+}
+.value .value_content .value_right .radius_item h1 {
+    font-size: 70px;
+    font-weight: 600;
+
+}
 /* blog  */
 .blog .blog_item {
     display: flex;
@@ -782,7 +825,7 @@ div#small-dialog iframe {
 /* -----------------------------------------------  */
 /* comment  carousel  */
 .comment {
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../IMG/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* height: 100vh; */
