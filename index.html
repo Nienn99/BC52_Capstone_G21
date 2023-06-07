@@ -67,55 +67,97 @@
 
   <body id="myBody">
     <!-- header  -->
-    <header class="fixed-top main_header nav_fixed dark_card ">
+    <header class="fixed-top main_header nav_fixed dark_card">
       <div class="container">
         <!-- place navbar here -->
-      <div class="header_nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <!-- logo  -->
-            <a class="navbar-brand" href="#"
-              >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
-            ></a>
-            <!-- //logo  -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- nav_bar -->
-            <div class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end" id="navbarNav">
-               <!-- Search -->
-               <div class="header_search">
-                <form action="" class="search_box">
-                  <input type="text" class="search_text">
-                </form>
-              </div>
-              <!-- dark mode button  -->
-              <div class="darkMode mx-2 py-3">
-                <button class="btn" id="switchButton" title="Click to switch theme">
-                  <i class="far fa-moon"></i>
-                  <i class="far fa-sun"></i>
-                </button>
-          
-              </div>
-              <!-- NavBar drop  -->
-              <div class="dropdown">
-                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-bars"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" type="button">Home</button></li>
-                  <li><button class="dropdown-item" type="button">About</button></li>
-                  <li><button class="dropdown-item" type="button">Services</button></li>
-                  <li><button class="dropdown-item" type="button">Landing page</button></li>
-                  <li><button class="dropdown-item" type="button">404 Page</button></li>
-                  <li><button class="dropdown-item" type="button">Contact</button></li>
-                </ul>
+        <div class="header_nav">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <!-- logo  -->
+              <a class="navbar-brand" href="#"
+                >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
+              ></a>
+              <!-- //logo  -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- nav_bar -->
+              <div
+                class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end"
+                id="navbarNav"
+              >
+                <!-- Search -->
+                <div class="header_search">
+                  <form action="" class="search_box">
+                    <input type="text" class="search_text" />
+                  </form>
+                </div>
+                <!-- dark mode button  -->
+                <div class="darkMode mx-2 py-3">
+                  <button
+                    class="btn"
+                    id="switchButton"
+                    title="Click to switch theme"
+                  >
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                  </button>
+                </div>
+                <!-- NavBar drop  -->
+                <div class="dropdown">
+                  <button
+                    class="btn"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="./index.html"> HOME</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="./about.html">ABOUT</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="#">SERVICES</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="#">LANDING PAGE</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="./404.html">404 PAGE</a>
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a href="#"> CONTACT</a>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
-      </div>
-        
+          </nav>
+        </div>
       </div>
     </header>
     <!-- //header  -->
@@ -217,51 +259,70 @@
 
     <!-- feature  -->
     <section class="feature dark_card">
-      <div class="feature_content container p-5 ">
+      <div class="feature_content container p-5">
         <div class="row align-items-center">
           <!-- feature left  -->
-      <div class="feature_left col-lg-6 p-5">
-        <h4>Grow Naturally</h4>
-        <h3 class="pb-3">Leaders in the field</h3>
-        <p class="mb-4">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
-        <button class="button_all text-uppercase mt-4">Discover more</button>
-      </div>
-      <!-- // feature left  -->
-      <!-- feature right  -->
-      <div class="feature_right col-lg-6 ps-2">
-        <div class="feature_grid">
-          <!-- item  -->
-          <div class="feature_item d-flex flex-column justify-content-center align-items-center ">
-            <img class="w-25" src="./IMG/img4.png" alt="">
-            <h4><a class="text-decoration-none" href="#">Natural Products</a></h4>
+          <div class="feature_left col-lg-6 p-5">
+            <h4>Grow Naturally</h4>
+            <h3 class="pb-3">Leaders in the field</h3>
+            <p class="mb-4">
+              Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies
+              nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis
+              eros et, sed commodo risus. Nullam sit amet laoreet elit.
+              Suspendisse non init magnaa velit efficitur, dolor eget ex
+              fermentum.
+            </p>
+            <button class="button_all text-uppercase mt-4">
+              Discover more
+            </button>
           </div>
-          <!-- // item  -->
-          <!-- item  -->
-          <div class="feature_item d-flex flex-column justify-content-center align-items-center ">
-            <img class="w-25" src="./IMG/img2.png" alt="">
-            <h4><a class="text-decoration-none" href="#">Wheat Cultivation</a></h4>
+          <!-- // feature left  -->
+          <!-- feature right  -->
+          <div class="feature_right col-lg-6 ps-2">
+            <div class="feature_grid">
+              <!-- item  -->
+              <div
+                class="feature_item d-flex flex-column justify-content-center align-items-center"
+              >
+                <img class="w-25" src="./IMG/img4.png" alt="" />
+                <h4>
+                  <a class="text-decoration-none" href="#">Natural Products</a>
+                </h4>
+              </div>
+              <!-- // item  -->
+              <!-- item  -->
+              <div
+                class="feature_item d-flex flex-column justify-content-center align-items-center"
+              >
+                <img class="w-25" src="./IMG/img2.png" alt="" />
+                <h4>
+                  <a class="text-decoration-none" href="#">Wheat Cultivation</a>
+                </h4>
+              </div>
+              <!-- // item  -->
+              <!-- item  -->
+              <div
+                class="feature_item d-flex flex-column justify-content-center align-items-center"
+              >
+                <img class="w-25" src="./IMG/img1.png" alt="" />
+                <h4>
+                  <a class="text-decoration-none" href="#">Mordern Truck</a>
+                </h4>
+              </div>
+              <!-- // item  -->
+              <!-- item  -->
+              <div
+                class="feature_item d-flex flex-column justify-content-center align-items-center"
+              >
+                <img class="w-25" src="./IMG/img3.png" alt="" />
+                <h4>
+                  <a class="text-decoration-none" href="#">Organic Product</a>
+                </h4>
+              </div>
+              <!-- // item  -->
+            </div>
           </div>
-          <!-- // item  -->
-          <!-- item  -->
-          <div class="feature_item d-flex flex-column justify-content-center align-items-center ">
-            <img class="w-25" src="./IMG/img1.png" alt="">
-            <h4><a class="text-decoration-none" href="#">Mordern Truck</a></h4>
-          </div>
-          <!-- // item  -->
-          <!-- item  -->
-          <div class="feature_item d-flex flex-column justify-content-center align-items-center ">
-            <img class="w-25" src="./IMG/img3.png" alt="">
-            <h4><a class="text-decoration-none" href="#">Organic Product</a></h4>
-          </div>
-          <!-- // item  -->
-
-        </div>
-          
-          
-          
-      </div>
-      <!-- //feature right  -->
-
+          <!-- //feature right  -->
         </div>
       </div>
     </section>
@@ -293,8 +354,8 @@
         <div class="services_post row justify-content-center mt-5">
           <!-- Card  -->
           <div class="post_item col-lg-4 mt-4">
-            <div class="card dark_card" style="width: 24rem;">
-              <img src="./IMG/service1.jpg" class="card-img-top" alt="...">
+            <div class="card dark_card" style="width: 24rem">
+              <img src="./IMG/service1.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p>Natural</p>
                 <a class="d-block" href="">Agriculture Products</a>
@@ -308,9 +369,9 @@
           <!-- //Card  -->
           <!-- Card  -->
           <div class="post_item col-lg-4 mt-4">
-            <div class="card dark_card" style="width: 24rem;">
-              <img src="./IMG/service2.jpg" class="card-img-top" alt="...">
-              <div class="card-body ">
+            <div class="card dark_card" style="width: 24rem">
+              <img src="./IMG/service2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
                 <p>Agriculture</p>
                 <a class="d-block" href="">Fresh Vegetable</a>
                 <p class="card-text">
@@ -323,8 +384,8 @@
           <!-- //Card  -->
           <!-- Card  -->
           <div class="post_item col-lg-4 mt-4">
-            <div class="card dark_card" style="width: 24rem;">
-              <img src="./IMG/service3.jpg" class="card-img-top" alt="...">
+            <div class="card dark_card" style="width: 24rem">
+              <img src="./IMG/service3.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p>Farm</p>
                 <a class="d-block" href="">Organic Products</a>
@@ -347,10 +408,14 @@
       <div class="value_content container py-md-5 py-4">
         <div class="row">
           <!-- value left  -->
-          <div class="col-lg-5 value_left ms-5 pe-2 me-5 ">
+          <div class="col-lg-5 value_left ms-5 pe-2 me-5">
             <h5>Why choose us</h5>
             <h3>Quality food is the most important thing in our life</h3>
-            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat.</p>
+            <p>
+              Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+              ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Non quae, fugiat.
+            </p>
             <div class="row value_left_item py-5 my-4">
               <!-- item  -->
               <div class="col-sm-6 d-flex">
@@ -363,7 +428,7 @@
               <!-- //item  -->
               <!-- item  -->
               <div class="col-sm-6 d-flex">
-                <span class="fa fa-life-ring py-1 pe-2 "></span>
+                <span class="fa fa-life-ring py-1 pe-2"></span>
                 <div class="item_content">
                   <h4 class="py-1">Excellent Service</h4>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit.</p>
@@ -373,19 +438,15 @@
             </div>
           </div>
           <!-- value right  -->
-          <div class="col-lg-6 value_right position-relative text-end ">
-            <img src="./IMG/image.jpg" class="rounded-5" alt="">
+          <div class="col-lg-6 value_right position-relative text-end">
+            <img src="./IMG/image.jpg" class="rounded-5" alt="" />
             <div class="radius_item text-center">
               <h1>36+</h1>
               <p>YEARS OF EXPERIENCE</p>
             </div>
           </div>
         </div>
-
-
       </div>
-
-
     </section>
 
     <!-- Blog  -->
@@ -568,13 +629,13 @@
     </section>
     <!-- // Gallery  -->
 
-    <!-- Comment -->
-    <section class="comment py-md-5 py-lg-4 dark_card">
-      <div class="container">
-        <div class="comment_content">
-          <div class="owl-carousel owl-theme">
-            <!-- ------ item -----  -->
-            <div class="comment_item align-items-center row ">
+    <!-- --- comment---------  -->
+    <section class="comment dark_card">
+      <div class="container py-5">
+        <div class="comment_content py-lg-5">
+          <div class="owl-two owl-carousel owl-theme mb-md-3 mb-sm-5 mb-4">
+            <!-- ------ item ----- 1 -->
+            <div class="comment_item row align-items-center">
               <!------ left --- -->
               <div class="comment_left col-md-3 text-center">
                 <img src="./IMG/testi1.jpg" alt="" />
@@ -599,7 +660,7 @@
             <!-- ------ item ----- 2 -->
             <div class="comment_item row align-items-center">
               <!------ left --- -->
-              <div class="comment_left col-md-4 text-center">
+              <div class="comment_left col-md-3 text-center">
                 <img src="./IMG/testi2.jpg" alt="" />
                 <h3 class="text-white my-3">Dennis wilson</h3>
                 <p class="text-white">Customer</p>
@@ -622,7 +683,7 @@
             <!-- ------ item ----- 3 -->
             <div class="comment_item row align-items-center">
               <!------ left --- -->
-              <div class="comment_left col-md-4 text-center">
+              <div class="comment_left col-md-3 text-center">
                 <img src="./IMG/testi3.jpg" alt="" />
                 <h3 class="text-white my-3">Dennis wilson</h3>
                 <p class="text-white">Customer</p>
@@ -649,86 +710,87 @@
     <!-- // Comment  -->
 
     <!-- Footer  -->
-    <footer class=" py-5 dark_card">
-          <div class="container text-start mt-4">
-            <div class="row footer_content">
-              <!-- ------------------------------------------  -->
-              <div class="col-lg-4 order-lg-1 order-3 mt-5 mt-lg-0 footer_item">
-                <h3 class="footer_logo">
-                  <a href="#">Farmstead</a>
-                  <i id="footer_logo" class="fa-solid fa-leaf logo"></i>
-                </h3>
-                <div class="footer_text">
-                  <p class="mt-6">
-                    Duis imperdiet sapien tortor, vitae congue diam auctor vitae.
-                    Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.
-                  </p>
-                  <p class="mt-5">
-                    © 2023 Farmstead. All Rights Reserved | WordPress Theme by
-                    <a id="w3lay" href="https://w3layouts.com/">W3Layouts.</a>
-                  </p>
-                </div>
-                
-              </div>
-              <!-- --------------------------  -->
-              <div class="col-lg-4 pl-lg-5 footer_item">
-                <h3>FIND US</h3>
-                <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
-                <p>Phone:<a href="tel:+12 23456790">+12 23456790</a></p>
-                <p>
-                  Email: <a href="mailto:info@example.com"> info@example.com</a>
-                </p>
-                <p>Fax: <a href="tel: + 11 367 21890"> + 11 367 21890</a></p>
-              </div>
-    
-              <!-- -------------------------  -->
-              <div class="col-lg-4 col-md-7 order-1 mt-5 mt-lg-0 footer_item">
-                <h3>NEWSLETTER</h3>
-                <p>
-                  Subscribe to our mailing list and get updates to your email inbox.
-                </p>
-                <!-- form  -->
-                <form action="">
-                  <input type="email" placeholder="Email Address" />
-                  <button><i class="fa-solid fa-paper-plane"></i></button>
-                </form>
-                <!-- social media  -->
-                <ul class="social p-0 pt-4 text-start">
-                  <li>
-                    <a href="https://vi-vn.facebook.com/"
-                      ><i class="fa-brands fa-facebook me-3"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/"
-                      ><i class="fa-brands fa-linkedin-in me-3"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/?lang=vi"
-                      ><i class="fa-brands fa-twitter me-3"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://www.google.com/"
-                      ><i class="fa-brands fa-google-plus-g me-3"></i
-                    ></a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/"
-                      ><i class="fa-brands fa-github me-3"></i
-                    ></a>
-                  </li>
-                </ul>
-              </div>
+    <footer class="py-5 dark_card">
+      <div class="container text-start mt-4">
+        <div class="row footer_content">
+          <!-- ------------------------------------------  -->
+          <div class="col-lg-4 order-lg-1 order-3 mt-5 mt-lg-0 footer_item">
+            <h3 class="footer_logo">
+              <a href="./index.html" id="footer_text">Farmstead</a>
+              <i id="footer_logo" class="fa-solid fa-leaf logo"></i>
+            </h3>
+            <div class="footer_text">
+              <p class="mt-6">
+                Duis imperdiet sapien tortor, vitae congue diam auctor vitae.
+                Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.
+              </p>
+              <p class="mt-5">
+                © 2023 Farmstead. All Rights Reserved | WordPress Theme by
+                <a id="w3lay" href="https://w3layouts.com/">W3Layouts.</a>
+              </p>
             </div>
           </div>
+          <!-- --------------------------  -->
+          <div class="col-lg-4 pl-lg-5 footer_item">
+            <h3>FIND US</h3>
+            <p>Address: 10001 Alleghany st, 5th Avenue, 235 Terry, London.</p>
+            <p>Phone:<a href="tel:+12 23456790">+12 23456790</a></p>
+            <p>
+              Email: <a href="mailto:info@example.com"> info@example.com</a>
+            </p>
+            <p>Fax: <a href="tel: + 11 367 21890"> + 11 367 21890</a></p>
+          </div>
+
+          <!-- -------------------------  -->
+          <div class="col-lg-4 col-md-7 order-1 mt-5 mt-lg-0 footer_item">
+            <h3>NEWSLETTER</h3>
+            <p>
+              Subscribe to our mailing list and get updates to your email inbox.
+            </p>
+            <!-- form  -->
+            <form action="">
+              <input type="email" placeholder="Email Address" />
+              <button>
+                <i class="fa-solid fa-paper-plane text-white"></i>
+              </button>
+            </form>
+            <!-- social media  -->
+            <ul class="social p-0 pt-4 text-start">
+              <li>
+                <a href="https://vi-vn.facebook.com/"
+                  ><i class="fa-brands fa-facebook me-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/"
+                  ><i class="fa-brands fa-linkedin-in me-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/?lang=vi"
+                  ><i class="fa-brands fa-twitter me-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.google.com/"
+                  ><i class="fa-brands fa-google-plus-g me-3"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://github.com/"
+                  ><i class="fa-brands fa-github me-3"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- //Footer  -->
 
     <!-- back to top  -->
     <a href="#" class="back_to_top">
-          <i class="fa-solid fa-turn-up"></i>
+      <i class="fa-solid fa-turn-up"></i>
     </a>
     <!-- //back to top  -->
 
