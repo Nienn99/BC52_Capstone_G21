@@ -1070,7 +1070,11 @@ div#small-dialog iframe {
     
 }
 /* //contact */
- 
+ /* Map  */
+.landmap iframe {
+    width: 100%;
+}
+ /* //Map  */
 /* -----------------------------------------------  */
 /* comment  carousel  */
 .comment {
