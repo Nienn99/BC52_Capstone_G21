@@ -1004,8 +1004,73 @@ div#small-dialog iframe {
     font-size: 40px;
     font-weight: 600;
 }
-
 /* //Request  */
+
+/* contact  */
+.contact .contact_content .contact_left h4 {
+    font-size: 22px;
+    color: #FB811E;
+}
+.contact .contact_content {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contact .contact_content .contact_left h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.contact .contact_content .contact_left .contact_info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact .contact_content .contact_left .info_left {
+    margin-right: 15px;
+}
+.contact .contact_content .contact_left .contact_info i{
+    color: #FB811E;
+}
+.contact .contact_content .contact_left .contact_info h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact .contact_content .contact_left .contact_info p{
+    font-size: 17px;
+    color: #707070;
+    cursor: pointer;
+}
+.contact .contact_content .contact_left .contact_info p:hover{
+    color: #FB811E;
+    transition: all 0.5s;
+}
+
+
+.contact .contact_content .contact_right .contact_input{
+    width: 100%;
+    padding: 15px;
+    margin: 8px;
+    border:1px solid #a29d9d;
+    border-radius: 5px;
+}
+.contact .contact_content .contact_right .input_message textarea {
+    width: 100%;
+    height: 120px !important;
+    border:1px solid #a29d9d;
+    border-radius: 5px;
+    margin: 8px;
+}
+.dark .contact .contact_content .contact_right .contact_input{
+    background-color: #222222;
+    border:1px solid #595959;
+    border-radius: 5px 
+}
+.dark .contact .contact_content .contact_right .input_message textarea {
+    background-color: #222222;
+    border:1px solid #595959;
+    
+}
+/* //contact */
+ 
 /* -----------------------------------------------  */
 /* comment  carousel  */
 .comment {
