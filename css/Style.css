@@ -68,12 +68,15 @@ p {
     padding: 0px;
     font-family: 'Volkhov', serif;
 }
+
 .nav_fixed .darkMode #switchButton {
     color: black;
 }
+
 .nav_fixed .dropdown button i {
     color: black;
 }
+
 .navbar-brand i {
     position: absolute;
     top: 0px;
@@ -103,7 +106,7 @@ p {
 
 /* Dark Theme*/
 .dark #myBody {
-    background-color:  #222222!important;
+    background-color: #222222 !important;
     color: white !important;
 }
 
@@ -149,26 +152,33 @@ p {
     color: white;
     box-shadow: 0 1rem 3rem rgb(31, 30, 30, 1);
 }
+
 .dark .feature .feature_right .feature_item h4 a {
     color: white;
 }
+
 .dark .services .services_post .post_item .dark_card a {
     color: white;
 }
+
 .dark .blog .blog_box .blog_item .item_content h4 {
     color: white;
 }
+
 .dark .nav_fixed .dropdown button i {
     color: white;
 }
+
 /* //darkthem  */
 .dropdown {
     outline: none !important;
     border: none;
 }
+
 .dropdown button {
     border: none !important;
 }
+
 .dropdown button i {
     color: white;
     font-size: 25px;
@@ -199,6 +209,15 @@ header .search_box .search_text {
 
 header .search_box .search_text:focus {
     width: 200px;
+}
+
+.dropdown .dropdown-item a {
+    display: block;
+    text-decoration: none;
+    color: #404040;
+    font-weight: 600;
+    text-align: center;
+
 }
 
 
@@ -331,6 +350,7 @@ header .search_box .search_text:focus {
 
 .services .services_title .services_text p {
     font-size: 20px;
+    color: white;
 }
 
 .services .services_bg {
@@ -392,14 +412,17 @@ header .search_box .search_text:focus {
     color: #FB811E;
     font-size: 22px;
 }
+
 .value .value_content .value_left h3 {
     font-size: 40px;
     font-weight: 600;
 }
+
 .value .value_content .value_left .value_left_item span {
     color: #FB811E;
     font-size: 30px;
 }
+
 .value .value_content .value_left .value_left_item h4 {
     font-weight: 600;
 }
@@ -410,6 +433,7 @@ header .search_box .search_text:focus {
 .value .value_content .value_right #photo_services {
     width: 90%;
 }
+
 .value .value_content .value_right .radius_item {
     position: absolute;
     bottom: 30px;
@@ -419,17 +443,21 @@ header .search_box .search_text:focus {
     border-bottom-right-radius: 45%;
     min-width: 300px;
     padding: 40px;
-    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    ;
 }
+
 .value .value_content .value_right .radius_item p {
-    color: white ;
+    color: white;
     font-weight: 600;
 }
+
 .value .value_content .value_right .radius_item h1 {
     font-size: 70px;
     font-weight: 600;
 
 }
+
 /* blog  */
 .blog .blog_item {
     display: flex;
@@ -578,6 +606,105 @@ header .search_box .search_text:focus {
 
 }
 
+
+
+/* ------------ABOUT----------------------  */
+
+/* --------------- 404 -----------------------  */
+.error_404 {
+    background-image: url(../IMG/error2.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    /* z-index: 100; */
+    height: 100vh;
+
+}
+
+.error_404 .error_content {
+    padding-top: 10%;
+}
+
+.st1 {
+    font-size: 83px;
+    font-family: 'Volkhov', serif;
+}
+
+svg {
+    text-align: center;
+    fill: #009F4D;
+    width: 500px;
+    overflow: hidden;
+    margin-top: 60px;
+}
+
+path#XMLID_11_,
+path#XMLID_2_ {
+    fill: #009f4d;
+}
+
+path#XMLID_5_ {
+    fill: #009f4d;
+    filter: url(#blurFilter4);
+}
+
+/* .circle {
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: out;
+    animation: out 2s infinite ease-out;
+    fill: #009f4d;
+} */
+
+.error_404 .error_title h1 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.error_404 .error_form input {
+    appearance: none;
+    padding: 15px 58px 15px 20px;
+    font-size: 16px;
+    border: 2px solid #eee;
+    color: #060606;
+    border-radius: 35px;
+    background: #f4f4f4;
+    cursor: text;
+    height: auto;
+    width: 34%;
+}
+
+.error_404 .error_form .error_btn {
+    border: none;
+    color: #009F4D;
+    line-height: 1;
+    background: none;
+    position: absolute;
+    right: 67.2%;
+    top: 35%;
+}
+
+.error_form .error_action a {
+    color: black;
+    font-weight: 600;
+    background: none;
+    margin-top: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.error_form .error_action:hover a {
+    color: #009F4D;
+}
+
+/* --------------- 404 -----------------------  */
 /* number  */
 .number .number_item i {
     font-size: 32px;
@@ -594,9 +721,11 @@ header .search_box .search_text:focus {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
 }
+
 .number .number_item p {
     color: black;
 }
+
 .dark .dark_card .number_content .number_item p {
     color: white;
 }
@@ -883,7 +1012,7 @@ div#small-dialog iframe {
     background-image: url(../IMG/bg1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* height: 100vh; */
+    height: 50vh;
     position: relative;
     z-index: 1;
 }
@@ -925,7 +1054,7 @@ div#small-dialog iframe {
     justify-content: center;
 }
 
-/* ----------------------  */
+/* -----------------------------------------------------------------------------------------------------  */
 /* footer  */
 
 
@@ -994,14 +1123,16 @@ footer  .footer_content .footer_item .footer_logo:hover  a {
     color: white;
     transition: all 0.5s;
 }
+
 .footer_item .footer_text {
     position: relative;
     top: 54px;
 }
 
- .footer_content .footer_item p {
+.footer_content .footer_item p {
     color: #959292;
- }
+}
+
 .footer_content .footer_item form {
     display: flex;
     width: 100%;
@@ -1067,9 +1198,10 @@ footer  .footer_content .footer_item .footer_logo:hover  a {
     box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
     transition: all 0.5s;
 }
- footer .footer_text p{
+
+footer .footer_text p {
     color: #959292;
- }
+}
 
 
 /* ------------------------------------------------  */
