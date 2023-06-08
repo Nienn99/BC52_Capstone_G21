@@ -29,6 +29,7 @@ p {
 
 .button_all:hover {
     background-color: #009F4D;
+    transition: all 0.5s;
 }
 
 .main_header {
@@ -294,6 +295,7 @@ header .search_box .search_text:focus {
 
 .feature .feature_right .feature_item:hover {
     box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.1);
+    transition: all 0.5s;
 }
 
 .feature .feature_right .feature_item h4 a {
@@ -309,6 +311,7 @@ header .search_box .search_text:focus {
 
 .feature .feature_right .feature_item h4 a:hover {
     color: #009f4d;
+    transition: all 0.5s;
 
 }
 
@@ -375,6 +378,7 @@ header .search_box .search_text:focus {
 
 .services .services_post .card .card-body a:hover {
     color: #009F4D;
+    transition: all 0.5s;
 }
 
 .services .services_post .card .card-body p:last-child {
@@ -402,6 +406,9 @@ header .search_box .search_text:focus {
 
 .value .value_content .value_right img {
     width: 75%;
+}
+.value .value_content .value_right #photo_services {
+    width: 90%;
 }
 .value .value_content .value_right .radius_item {
     position: absolute;
@@ -445,6 +452,7 @@ header .search_box .search_text:focus {
 
 .blog .blog_item:hover .item_content h4 {
     color: #009F4D !important;
+    transition: all 0.5s;
 }
 
 .blog .blog_item .item_img img {
@@ -685,6 +693,7 @@ header .search_box .search_text:focus {
 .team_content .team_item h5 a:hover {
     color: #FB811E;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .team_content .team_item span {
@@ -791,7 +800,83 @@ div#small-dialog iframe {
 
 /* history play button  */
 
+/* information  */
+.information {
+    background-color: white;
+    padding: 40px 0;
+}
+.information .information_item {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 35px;
+    box-shadow: 1rem 1rem 1rem 1rem  rgba(188, 176, 176, 0.079) ;
+}
+.information .information_item:hover {
+    box-shadow: 1rem 1rem 3rem rgba(43, 42, 42, 0.147);
+    transition: all 0.5s;
+}
+.information .information_item i {
+    color: #FB811E;
+    font-size: 45px;
+}
+.information .information_item .information_text h3 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.information .information_item .information_text h3:hover {
+    color: #FB811E;
+    transition: all 0.5s;
+}
+.information .information_item .information_text p {
+    font-size: 17px;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+}
+.dark .information {
+    background-color: #222222;
+}
+.dark .information .information_item {
+    background-color: #222222;
+    box-shadow: 1rem 1rem 1rem 1rem  rgba(32, 31, 31, 0.079) ;
+}
+.dark .information .information_item:hover {
+    transition: all 0.5s;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.1);
+}
+/* //information  */
+/* Request  */
+.request {
+    background-image: url(../IMG/bg2.jpg);
+    position: relative;
+}
+.request::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #0000004c;
+}
+.request .request_content {
+    position: inherit;
+    z-index: 1;
+    color: white;
+}
+.request .request_content .request_left {
+    width: 50%;
+}
+.request .request_content .request_left h3{
+    font-size: 22px;
+}
+.request .request_content .request_left h1{
+    font-size: 40px;
+    font-weight: 600;
+}
 
+/* //Request  */
 /* -----------------------------------------------  */
 /* comment  carousel  */
 .comment {
@@ -858,6 +943,7 @@ footer .footer_content .footer_item h3 {
 
 .footer_content .footer_item a:hover {
     color: #FB811E;
+    transition: all 0.5s;
 }
 
 #w3lay {
@@ -867,6 +953,7 @@ footer .footer_content .footer_item h3 {
 
 #w3lay:hover {
     color: #FB811E;
+    transition: all 0.5s;
 }
 
 .footer_item .footer_logo {
@@ -883,29 +970,29 @@ footer .footer_content .footer_item h3 {
     transition: all 0.5s;
 }
 
-#footer_logo {
-    background: none;
-    color: #FB811E;
-}
-
 .footer_item .footer_logo a {
     font-size: 32px;
     color: #FB811E;
     font-weight: 400;
 }
-
-.footer_item .footer_logo:hover {
-    color: black;
+footer  .footer_content .footer_item .footer_logo  i {
+    color: #FB811E;
+    background: none;
 }
 
-.footer_item .footer_logo:hover a {
+footer  .footer_content .footer_item .footer_logo:hover  i {
     color: black;
 }
-.dark_card .footer_content .footer_item .footer_logo:hover a{
-    color: white;
+footer  .footer_content .footer_item .footer_logo:hover  a {
+    color: black;
 }
-.dark_card .footer_content .footer_item .footer_logo:hover i{
+.dark .footer_content .footer_item .footer_logo:hover a{
     color: white;
+    transition: all 0.5s;
+}
+.dark .footer_content .footer_item .footer_logo:hover i{
+    color: white;
+    transition: all 0.5s;
 }
 .footer_item .footer_text {
     position: relative;
@@ -939,9 +1026,13 @@ footer .footer_content .footer_item h3 {
     border: none;
     transition: all 0.5s;
 }
+.footer_content .footer_item form button i {
+    color: white;
+}
 
 .footer_content .footer_item button:hover {
     background-color: #33B271;
+    transition: all 0.5s;
 }
 
 .footer_content .footer_item ul {
@@ -974,6 +1065,7 @@ footer .footer_content .footer_item h3 {
     color: #FB811E;
     background: rgb(255 201 69 / 19%);
     box-shadow: 0px 4px 7px 0px rgb(10 10 10 / 24%);
+    transition: all 0.5s;
 }
  footer .footer_text p{
     color: #959292;
