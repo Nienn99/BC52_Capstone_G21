@@ -67,55 +67,121 @@
 
   <body id="myBody">
     <!-- header  -->
-    <header class="fixed-top main_header nav_fixed dark_card ">
+    <header class="fixed-top main_header nav_fixed dark_card">
       <div class="container px-5">
         <!-- place navbar here -->
-      <div class="header_nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <!-- logo  -->
-            <a class="navbar-brand" href="./index.html"
-              >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
-            ></a>
-            <!-- //logo  -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- nav_bar -->
-            <div class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end" id="navbarNav">
-               <!-- Search -->
-               <div class="header_search">
-                <form action="" class="search_box">
-                  <input type="text" class="search_text">
-                </form>
-              </div>
-              <!-- dark mode button  -->
-              <div class="darkMode mx-2 py-3">
-                <button class="btn" id="switchButton" title="Click to switch theme">
-                  <i class="far fa-moon"></i>
-                  <i class="far fa-sun"></i>
-                </button>
-          
-              </div>
-              <!-- NavBar drop  -->
-              <div class="dropdown">
-                <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <i class="fa-solid fa-bars"></i>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./index.html">Home</a></button></li>
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./about.html">About</a></button></li>
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./Service.html">Services</a></button></li>
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./landingpage.html">Landind page</a></button></li>
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./404.html">404 Page</a></button></li>
-                  <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./Contact.html">Contact</a></button></li>
-                </ul>
+        <div class="header_nav">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <!-- logo  -->
+              <a class="navbar-brand" href="./index.html"
+                >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
+              ></a>
+              <!-- //logo  -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!-- nav_bar -->
+              <div
+                class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end"
+                id="navbarNav"
+              >
+                <!-- Search -->
+                <div class="header_search">
+                  <form action="" class="search_box">
+                    <input type="text" class="search_text" />
+                  </form>
+                </div>
+                <!-- dark mode button  -->
+                <div class="darkMode mx-2 py-3">
+                  <button
+                    class="btn"
+                    id="switchButton"
+                    title="Click to switch theme"
+                  >
+                    <i class="far fa-moon"></i>
+                    <i class="far fa-sun"></i>
+                  </button>
+                </div>
+                <!-- NavBar drop  -->
+                <div class="dropdown">
+                  <button
+                    class="btn"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i class="fa-solid fa-bars"></i>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./index.html"
+                          >Home</a
+                        >
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./about.html"
+                          >About</a
+                        >
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./Service.html"
+                          >Services</a
+                        >
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./landingpage.html"
+                          >Landind page</a
+                        >
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./404.html"
+                          >404 Page</a
+                        >
+                      </button>
+                    </li>
+                    <li>
+                      <button class="dropdown-item" type="button">
+                        <a
+                          class="text-decoration-none text-dark"
+                          href="./Contact.html"
+                          >Contact</a
+                        >
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </nav>
-      </div>
-        
+          </nav>
+        </div>
       </div>
     </header>
     <!-- //header  -->
@@ -511,7 +577,7 @@
       <div class="container text-center p-5">
         <div class="row g-0">
           <!-- ----- title ----  -->
-          <div class="gallery_title col-lg-3 col-sm-6 text-start">
+          <div class="gallery_title col-lg-3 col-6 text-start">
             <h5 class="py-2">Gallery</h5>
             <h3>Our Products</h3>
             <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
@@ -593,16 +659,16 @@
         <div class="comment_content">
           <div class="owl-carousel owl-theme">
             <!-- ------ item -----  -->
-            <div class="comment_item align-items-center row ">
+            <div class="comment_item align-items-center row">
               <!------ left --- -->
               <div class="comment_left col-md-3 text-center">
-                <img src="./IMG/testi1.jpg" alt="" />
+                <img class="mt-2" src="./IMG/testi1.jpg" alt="" />
                 <h3 class="text-white my-3">Dennis wilson</h3>
                 <p class="text-white">Customer</p>
               </div>
               <!-- --- right --  -->
               <div
-                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-4 text-center text-md-start"
+                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-2 text-center text-md-start"
               >
                 <i class="fa-solid fa-quote-left pt-4 fs-3"></i> <br />
                 <p class="text-white">
@@ -619,13 +685,13 @@
             <div class="comment_item row align-items-center">
               <!------ left --- -->
               <div class="comment_left col-md-3 text-center">
-                <img src="./IMG/testi2.jpg" alt="" />
+                <img class="mt-3" src="./IMG/testi2.jpg" alt="" />
                 <h3 class="text-white my-3">Dennis wilson</h3>
                 <p class="text-white">Customer</p>
               </div>
               <!-- --- right --  -->
               <div
-                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-4 text-center text-md-start"
+                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-2 text-center text-md-start"
               >
                 <i class="fa-solid fa-quote-left pt-4 fs-3"></i> <br />
                 <p class="text-white">
@@ -642,13 +708,13 @@
             <div class="comment_item row align-items-center">
               <!------ left --- -->
               <div class="comment_left col-md-3 text-center">
-                <img src="./IMG/testi3.jpg" alt="" />
+                <img class="mt-2" src="./IMG/testi3.jpg" alt="" />
                 <h3 class="text-white my-3">Dennis wilson</h3>
                 <p class="text-white">Customer</p>
               </div>
               <!-- --- right --  -->
               <div
-                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-4 text-center text-md-start"
+                class="comment_right col-md-9 pl-lg-5 mt-md-0 mt-2 text-center text-md-start"
               >
                 <i class="fa-solid fa-quote-left pt-4 fs-3"></i> <br />
                 <p class="text-white">
@@ -810,7 +876,16 @@
         nav: false,
         dot: false,
         responsive: {
-          1000: {
+          576: {
+            items: 1,
+          },
+          768: {
+            items: 1,
+          },
+          992: {
+            items: 1,
+          },
+          1200: {
             items: 1,
           },
         },
