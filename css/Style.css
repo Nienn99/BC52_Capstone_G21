@@ -705,8 +705,8 @@ path#XMLID_5_ {
     color: #009F4D;
 }
 
-.dark .dark_card .error_404 .error_form input {
-    background: #222222;
+.dark input.dark_card {
+    background: #222222 !important;
 }
 
 /* --------------- 404 -----------------------  */
