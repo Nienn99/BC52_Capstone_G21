@@ -647,7 +647,7 @@ path#XMLID_5_ {
     filter: url(#blurFilter4);
 }
 
-/* .circle {
+.circle {
     animation-duration: 2s;
     animation-timing-function: ease-out;
     animation-delay: 0s;
@@ -655,10 +655,10 @@ path#XMLID_5_ {
     animation-direction: normal;
     animation-fill-mode: none;
     animation-play-state: running;
-    animation-name: out;
-    animation: out 2s infinite ease-out;
+    animation-name: zoomOut;
+    animation: zoomOut 2s infinite ease-out;
     fill: #009f4d;
-} */
+}
 
 .error_404 .error_title h1 {
     font-size: 24px;
@@ -700,6 +700,10 @@ path#XMLID_5_ {
 
 .error_form .error_action:hover a {
     color: #009F4D;
+}
+
+.dark .dark_card .error_404 .error_form input {
+    background: #222222;
 }
 
 /* --------------- 404 -----------------------  */
@@ -1356,5 +1360,33 @@ footer .footer_text p {
 
     .small_title {
         font-size: 20px;
+    }
+}
+
+
+@keyframes zoomOut {
+    0% {
+        r: 1;
+        opacity: 0.9;
+    }
+
+    25% {
+        r: 5;
+        opacity: 0.3;
+    }
+
+    50% {
+        r: 10;
+        opacity: 0.2;
+    }
+
+    75% {
+        r: 15;
+        opacity: 0.1;
+    }
+
+    100% {
+        r: 20;
+        opacity: 0;
     }
 }
