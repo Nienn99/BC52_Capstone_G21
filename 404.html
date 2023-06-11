@@ -47,77 +47,126 @@
     <link rel="stylesheet" href="./css/Style.css" />
   </head>
 
-  <body>
-    <!-- header  -->
-    <header class="fixed-top main_header nav_fixed dark_card">
-      <div class="container">
-        <!-- place navbar here -->
-        <div class="header_nav">
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <!-- logo  -->
-              <a class="navbar-brand" href="./index.html"
-                >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
-              ></a>
-              <!-- //logo  -->
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <!-- nav_bar -->
-              <div
-                class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end"
-                id="navbarNav"
-              >
-                <!-- Search -->
-                <div class="header_search">
-                  <form action="" class="search_box">
-                    <input type="text" class="search_text" />
-                  </form>
-                </div>
-                <!-- dark mode button  -->
-                <div class="darkMode mx-2 py-3">
+  <body id="myBody">
+        <!-- header  -->
+        <header class="fixed-top main_header nav_fixed dark_card">
+          <div class="container px-5">
+            <!-- place navbar here -->
+            <div class="header_nav">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <!-- logo  -->
+                  <a class="navbar-brand" href="./index.html"
+                    >Farmstead <i class="fa fa-leaf" aria-hidden="true"></i
+                  ></a>
+                  <!-- //logo  -->
                   <button
-                    class="btn"
-                    id="switchButton"
-                    title="Click to switch theme"
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
                   >
-                    <i class="far fa-moon"></i>
-                    <i class="far fa-sun"></i>
+                    <span class="navbar-toggler-icon"></span>
                   </button>
-                </div>
-                <!-- NavBar drop  -->
-                <div class="dropdown">
-                    <button
-                      class="btn"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <i class="fa-solid fa-bars"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./index.html">Home</a></button></li>
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./about.html">About</a></button></li>
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./Service.html">Services</a></button></li>
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./landingpage.html">Landind page</a></button></li>
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./404.html">404 Page</a></button></li>
-                      <li><button class="dropdown-item" type="button"><a class="text-decoration-none text-dark" href="./Contact.html">Contact</a></button></li>
-                    </ul>
+                  <!-- nav_bar -->
+                  <div
+                    class="collapse navbar-collapse justify-content-end text-uppercase fw-bold fs-6 justify-content-end"
+                    id="navbarNav"
+                  >
+                    <!-- Search -->
+                    <div class="header_search">
+                      <form action="" class="search_box">
+                        <input type="text" class="search_text" />
+                      </form>
+                    </div>
+                    <!-- dark mode button  -->
+                    <div class="darkMode mx-2 py-3">
+                      <button
+                        class="btn"
+                        id="switchButton"
+                        title="Click to switch theme"
+                      >
+                        <i class="far fa-moon"></i>
+                        <i class="far fa-sun"></i>
+                      </button>
+                    </div>
+                    <!-- NavBar drop  -->
+                    <div class="dropdown">
+                      <button
+                        class="btn"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i class="fa-solid fa-bars"></i>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./index.html"
+                              >Home</a
+                            >
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./about.html"
+                              >About</a
+                            >
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./Service.html"
+                              >Services</a
+                            >
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./landingpage.html"
+                              >Landind page</a
+                            >
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./404.html"
+                              >404 Page</a
+                            >
+                          </button>
+                        </li>
+                        <li>
+                          <button class="dropdown-item" type="button">
+                            <a
+                              class="text-decoration-none text-dark"
+                              href="./Contact.html"
+                              >Contact</a
+                            >
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-              </div>
+                </div>
+              </nav>
             </div>
-          </nav>
-        </div>
-      </div>
-    </header>
+          </div>
+        </header>
+        <!-- //header  -->
     <!-- 404 -->
     <section class="error_404">
       <div class="container">
@@ -303,10 +352,9 @@
 
 
 
-    <!-- --------- SCRIPT ----------  -->
+    <!-- ----------------------------------------------------------------------  -->
     <!-- my js  -->
     <script src="./js/index.js"></script>
-    <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -328,6 +376,53 @@
         } else {
           header.classList.remove("nav_fixed");
         }
+      });
+    </script>
+
+    <!-- fancy box  -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <script>
+      Fancybox.bind('[data-fancybox="gallery"]', {
+        // Your custom options
+      });
+    </script>
+
+    <!-- owl carousel  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+      integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      $(".owl-carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        nav: false,
+        dot: false,
+        responsive: {
+          568: {
+            items: 1,
+          },
+          768: {
+            items: 1,
+          },
+          991: {
+            items: 1,
+          },
+          1440: {
+            items: 1,
+          },
+        },
       });
     </script>
   </body>
