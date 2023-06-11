@@ -1127,6 +1127,10 @@ div#small-dialog iframe {
     z-index: -1;
 }
 
+.comment .comment_item {
+    margin-top: 60px;
+}
+
 
 .comment_content .comment_item .comment_right i {
     color: #FB811E;
@@ -1151,6 +1155,7 @@ div#small-dialog iframe {
 .owl-theme .owl-nav.disabled+.owl-dots {
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 
 /* -----------------------------------------------------------------------------------------------------  */
