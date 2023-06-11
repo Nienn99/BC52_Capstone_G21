@@ -228,12 +228,15 @@ header .search_box .search_text:focus {
     z-index: 1;
 }
 
+
 .banner .banner_left h1 {
     color: #F4F4F4;
     font-size: 120px;
     font-weight: bold;
     margin-left: -50px;
 }
+
+
 
 .banner .banner_left .banner_text h3 {
     font-size: 50px;
@@ -258,7 +261,7 @@ header .search_box .search_text:focus {
     border-bottom-left-radius: 25px;
 }
 
-.banner .banner_right .carousel-inner .carousel-item::before {
+.banner .banner_right .carousel-inner .carousel-item::after {
     content: "";
     position: absolute;
     top: 0;
